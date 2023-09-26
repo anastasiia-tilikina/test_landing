@@ -1,0 +1,27 @@
+.contactus__social-icons {
+  display: flex;
+}
+
+.social-icon {
+  display: block;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  margin-right: 36px;
+  @include hover(transform, scale(1.4));
+  
+  &__face {
+    background-image: url(../images/socials/face.svg);
+  }
+
+  &__twit {
+    background-image: url(../images/socials/twit.svg);
+  }
+
+  &__insta {
+    background-image: url(../images/socials/insta.svg);
+  }
+}
+
